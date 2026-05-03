@@ -1,0 +1,9 @@
+namespace GreenDriveApi.Models;
+
+public class EstacaoCarga
+{
+    public int Id { get; set; }
+    public string Localizacao { get; set; } = string.Empty; // Cidade/UF
+    public string TipoCarga { get; set; } = string.Empty; // [Rapida, Ultra-Rapida, Residencial]
+    public double CargaDisponivelKW { get; set; }
+}
